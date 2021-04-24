@@ -4,7 +4,7 @@
 		v-model="selected"
 		name=""
 		id=""
-		class="form-select mt-10 block w-full border p-3 rounded"
+		class="form-select mt-4 mb-4 block w-full border p-3 rounded"
 	>
 		<option value="0">Select Country</option>
 		<option v-for="country in countries" :key="country.ID" :value="country.ID">{{ country.Country }}</option>
